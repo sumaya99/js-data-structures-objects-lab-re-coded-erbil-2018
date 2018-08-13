@@ -6,3 +6,6 @@ const driver = {};
    driver[key]=value;
    return driver;
  }
+ function deleteFromDriverByKey(){
+   
+ }
