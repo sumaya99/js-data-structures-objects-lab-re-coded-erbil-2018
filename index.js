@@ -8,5 +8,5 @@ const driver = {};
  }
  function deleteFromDriverByKey(driver, key){
    const newObj = Object.assign(driver{}, key)
-   delete 
+   delete newObj;
  }
