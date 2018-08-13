@@ -7,6 +7,6 @@ const driver = {};
    return driver;
  }
  function deleteFromDriverByKey(driver, key){
-   const newObj = Object.assign({}, driver;
+   const newObj = Object.assign({}, driver);
    delete newObj[key];
  }
